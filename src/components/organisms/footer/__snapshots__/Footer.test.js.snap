@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component should have the right footer component snapshot 1`] = `
+<footer
+  className="footer"
+  data-testid="footer-text"
+>
+  <p
+    className="footer__text"
+  >
+    Copyright © 2011-2018 Sabka Baazar Gorcery Supplies Pvt. Ltd.
+  </p>
+</footer>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render email input 1`] = `<input />`;
+
+exports[`render input 1`] = `<input />`;
+
+exports[`should have right Button comp snapshot 1`] = `<input />`;
+
+exports[`should have right Input comp snapshot 1`] = `<input />`;

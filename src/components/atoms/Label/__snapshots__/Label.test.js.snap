@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render input 1`] = `
+<div
+  className="label"
+/>
+`;
+
+exports[`render label 1`] = `
+<div
+  className="label"
+/>
+`;
+
+exports[`should have right Label comp snapshot 1`] = `
+<div
+  className="label"
+/>
+`;

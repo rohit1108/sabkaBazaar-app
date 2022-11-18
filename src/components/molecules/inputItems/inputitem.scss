@@ -1,0 +1,22 @@
+@import "../../../styles/variables";
+.input-item{
+    color: rgb(173,168,165);
+    &:focus-within{
+        .label{
+        color: #2d8cf0;
+        }
+    }
+
+    &:focus{
+        border-bottom: 2px solid aqua;
+    }
+}
+.form-error {
+    color: red;
+    height: 1rem;
+    margin-bottom: 0.4rem;
+    margin-top: 0.2rem;
+  }
+
+    
+

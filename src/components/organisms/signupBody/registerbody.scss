@@ -1,0 +1,30 @@
+.register-body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 3em;
+    margin-left: 4em;
+}
+.register-child{
+    flex:0 1 40%;
+    justify-content: space-between;
+}
+.btn{
+    width:90%;
+    margin-top: 8px;
+    cursor: pointer;
+    .btn-red{
+        padding: 5em 0;  
+        
+    }
+}
+
+@media(min-width:1024px){
+    .register-body{
+        flex-direction: row;
+        margin: 3em;
+        margin-right: 8em;
+        margin-left: 12em;
+    }
+    
+}

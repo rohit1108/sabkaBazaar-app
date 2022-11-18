@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component should have right Button comp snapshot 1`] = `<button />`;
+
+exports[`Button component should have the right Button component snapshot 1`] = `<button />`;
+
+exports[`Sorting Component should have right Button comp snapshot 1`] = `<button />`;

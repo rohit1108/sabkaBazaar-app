@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component should have the right header component snapshot 1`] = `
+<div>
+  <h1 />
+  <p />
+</div>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart Header Component should have the right cart header component snapshot 1`] = `
+Array [
+  <div
+    className="cart-wrapper"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    tabIndex={0}
+  >
+    <img
+      alt="Cart Image"
+      className="cart-wrapper__image image-wrapper"
+      data-testid="image"
+      src="cart.svg"
+    />
+    <p
+      className="cart-wrapper__text"
+      data-testid="count-items"
+    >
+      0 items
+    </p>
+  </div>,
+  "",
+]
+`;

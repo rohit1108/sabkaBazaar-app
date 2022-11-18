@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login credentials form on submit should display error when email is not filled 1`] = `
+<p
+  class="form-error"
+>
+  Email is required
+</p>
+`;
+
+exports[`Login credentials form on submit should display error when password is not filled 1`] = `
+<p
+  class="form-error"
+>
+  Password is required
+</p>
+`;

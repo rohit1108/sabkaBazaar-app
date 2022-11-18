@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should have right anchor component 1`] = `
+<a
+  className="anchor"
+/>
+`;
+
+exports[`it should have right anchor component snapshot 1`] = `
+<a
+  className="anchor"
+/>
+`;

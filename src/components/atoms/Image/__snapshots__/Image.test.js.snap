@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image component should have the right Image component snapshot 1`] = `
+<img
+  className=" image-wrapper"
+  data-testid="image"
+/>
+`;
+
+exports[`renders correctly across screens 1`] = `
+<img
+  className=" image-wrapper"
+/>
+`;

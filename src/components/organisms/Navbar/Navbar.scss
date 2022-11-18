@@ -1,0 +1,99 @@
+@import "../../../styles/variables";
+@import "../../../styles/mixin";
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+span{
+  display: inline;
+}
+.header__welcome-user{
+  color: rgb(42, 10, 167);
+  .welcome-text{
+    color: #212121;
+  }
+}
+.header {
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0px 35px 20px -35px rgb(105, 103, 103);
+  
+    &__sub-container {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      color: $text-color;
+      max-width: $max-width-screen;
+      margin: 0 auto;
+      @media screen and (max-width: $breakpoint-mobile) {
+        background-color: #ddd;
+    }
+  
+      &__nav-items {
+        padding-bottom: 0.8rem;
+        display: flex;
+        flex-grow: 1;
+        align-items: flex-end;
+        font-size: 1rem;
+        padding-left: 4.5rem;
+        &__link {
+          margin-right: 2rem;
+          font-weight: bold;
+          text-decoration: none;
+          color: #4d4d4d;
+          &:hover{
+            background-color: #ddd;
+            padding: 5px;
+          }
+      }
+      @media screen and (max-width: $breakpoint-mobile) {
+          display: none;
+      }
+      @media screen and (max-width: $breakpoint-tablet) {
+          padding-left: 2.5rem;
+      }
+      }
+     
+  
+      &__nav-wrapper {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        overflow: hidden;
+        &__content {
+          display: none;
+        }
+        @media screen and (max-width: $breakpoint-mobile) {
+          flex-direction: row;
+          .header__sub-container__nav-wrapper__login{
+            color: black;
+            padding: 15px 4px;
+            text-decoration: none;
+            display: block;
+            font-size: 12px;
+          }
+        }
+  
+        &__login {
+          display: inline-block;
+          padding-top: 5px;
+          font-size: 1rem;
+          padding-left: 1.5rem;
+          &__link {
+              margin-right: 0.5rem;
+              font-weight: bold;
+              text-decoration: none;
+              color: #212121;
+          }
+          @media screen and (max-width: $breakpoint-mobile) {
+              display: none;
+          }
+      }
+      }
+    }
+  }
+
+

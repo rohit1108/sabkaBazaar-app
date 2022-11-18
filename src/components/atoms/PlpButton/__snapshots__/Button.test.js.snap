@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sorting Component should have right Button comp snapshot 1`] = `
+<button
+  className=" button-wrapper"
+/>
+`;
